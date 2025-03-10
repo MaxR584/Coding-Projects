@@ -1,0 +1,1 @@
+The program takes input from a microphone and then transcribes it into text. It includes a "stop-phrase" you can input that will cause the program to stop when spoken. Then, the results are copied into a Json file for storage.
