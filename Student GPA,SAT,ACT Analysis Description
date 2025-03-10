@@ -1,0 +1,1 @@
+This program uses a CSV file I made with data on some high prestige universities. The data includes the average GPA, SAT, and ACT scores as well as the percentages of students whose scores fell into different ranges. The program takes input from the user and then compares it to the stats of university they want to apply to. It also graphs the data from the university.
