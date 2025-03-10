@@ -1,0 +1,1 @@
+This program uses data collected from users on Reddit and other social media platforms which describe symptoms users felt when diagnosed with COVID-19. The program uses takes the symptom data and uses a CHATGPT plugin to reformat it into a uniform format. It takes key terms from the data and graphs their frequency in a bar chart as well as a wordcloud.
