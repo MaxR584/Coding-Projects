@@ -1,0 +1,1 @@
+This program takes input from the user's microphone. It converts the sound into a frequency using the Fast Fourier Transform (fft) and then uses a package "librosa" to convert it to a pitch such as C4.
