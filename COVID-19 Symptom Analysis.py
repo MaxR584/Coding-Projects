@@ -8,7 +8,7 @@ omicrondata = pd.read_csv('Omicron_ChatGPT_Med_Sym_NorMed.csv')
 def askgpt(context_str):
     QUESTION = "These values are symptoms that Covid-19 patients felt. Reformat them into a list format of ['answer1','answer2','answer3'] with no bullets or slashes. If there is a spelling error you may fix it. If no symptoms were given, output the word 'None' and nothing else. Do this with no introductory or concluding remarks."
     context_str = f"""{context_str}"""
-    openai.api_key = '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'
+    openai.api_key = #Insert API key here
     response = openai.ChatCompletion.create(
     model="gpt-4o", # do not pass in model by args
     messages=[
@@ -68,7 +68,7 @@ sns.barplot(x=keywords,y=counter)
 def askgpt(context_str):
     QUESTION = "These values are symptoms that Covid-19 patients felt. Sort the symptom into one of the following categories seperated by parenthesis and a singular number: (1.fever or chills) (2.cough) (3.shortness of breath or difficulty breathing) (4.sore throat) (5.congestion or runny nose) (6.new loss of taste or smell) (7.fatigue) (8.muscle or body aches) (9.headache) (10.nausea or vomiting) (11. diarrhea). Return the number of the category you have associated the input with. It should only be ONE number that is between 1 and 11 that the response fits the best with and don't inlude characters 'n' and '\'. If nothing fits, output the number 0 and nothing else. Do this with no introductory or concluding remarks."
     context_str = f"""{context_str}"""
-    openai.api_key = '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'
+    openai.api_key = #Insert API key here
     response = openai.ChatCompletion.create(
     model="gpt-4o", # do not pass in model by args
     messages=[
